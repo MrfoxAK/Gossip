@@ -1,0 +1,94 @@
+/* Navbar.css */
+
+/* Background overlay animation */
+.fadeIn {
+     animation: fadeIn 0.3s ease-in-out;
+   }
+   
+   /* Modal animation */
+   .scaleIn {
+     animation: scaleIn 0.3s ease-in-out;
+   }
+   
+   /* Animation for fading in the background */
+   @keyframes fadeIn {
+     0% {
+       opacity: 0;
+     }
+     100% {
+       opacity: 1;
+     }
+   }
+   
+   /* Animation for scaling the modal */
+   @keyframes scaleIn {
+     0% {
+       transform: scale(0.8);
+     }
+     100% {
+       transform: scale(1);
+     }
+   }
+   
+   /* Additional styling for the modal */
+   .bg-white {
+     background-color: #ffffff;
+   }
+   
+   .shadow-xl {
+     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+   }
+   
+   .btn-primary {
+     background-color: #4caf50;
+     color: white;
+     border-radius: 8px;
+     padding: 8px 16px;
+     border: none;
+   }
+   
+   .btn-primary:hover {
+     background-color: #45a049;
+   }
+   
+   .btn-secondary {
+     background-color: #f44336;
+     color: white;
+     border-radius: 8px;
+     padding: 8px 16px;
+     border: none;
+   }
+   
+   .btn-secondary:hover {
+     background-color: #e53935;
+   }
+   
+   button {
+     cursor: pointer;
+     transition: transform 0.2s ease;
+   }
+   
+   button:hover {
+     transform: scale(1.05);
+   }
+   
+   .flex {
+     display: flex;
+   }
+   
+   .gap-6 {
+     gap: 24px;
+   }
+   
+   .text-lg {
+     font-size: 18px;
+   }
+   
+   .font-medium {
+     font-weight: 500;
+   }
+   
+   .text-gray-800 {
+     color: #2d3748;
+   }
+   
